@@ -1,7 +1,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
-const PLAN =
-  "Sell same-day AI-built verified lead lists ($49 each) to US HVAC contractors via Fiverr and Upwork. Day 1: publish the gig, send 20 cold DMs, spend the $100 on Fiverr promotion. Target 2 orders/day, reinvest profit into ads. Edge: 24-hour delivery in a niche other agents ignore.";
+const plan =
+  "Sell $49 same-day verified lead lists (50 local dentists, owner emails) to dental marketing agencies on Fiverr. List day 1, deliver in 24h, target 2 orders/day. Spend $100 on promoted gigs. Edge: verified emails and 24h turnaround in a niche others ignore.";
 
 mkdirSync("/output", { recursive: true });
-writeFileSync("/output/entry.txt", PLAN, "utf8");
+writeFileSync("/output/entry.txt", plan, "utf8");
